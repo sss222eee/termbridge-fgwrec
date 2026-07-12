@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="520" viewBox="0 0 760 520">
+<style>
+text{font-family:Arial, 'Microsoft YaHei', sans-serif;fill:#0f172a;}
+.title{font-size:24px;font-weight:700;}
+.subtitle{font-size:13px;fill:#64748b;}
+.axis{font-size:12px;fill:#64748b;}
+.label{font-size:13px;fill:#0f172a;}
+.value{font-size:12px;fill:#0f172a;font-weight:600;}
+.small{font-size:11px;fill:#64748b;}
+</style>
+<rect width="100%" height="100%" fill="white"/>
+
+<text x="124" y="38" class="title">RRF micro-tuning heatmap</text>
+<text x="124" y="61" class="subtitle">q25 group setting, cell value is average Recall@20</text>
+<text x="199.0" y="80" text-anchor="middle" class="label">protect=4</text>
+<text x="349.0" y="80" text-anchor="middle" class="label">protect=5</text>
+<text x="499.0" y="80" text-anchor="middle" class="label">protect=6</text>
+<text x="106" y="152.0" text-anchor="end" class="label">K=25</text>
+<rect x="124" y="104" width="142" height="78" rx="6" fill="#5f8ef1" stroke="white" stroke-width="2"/>
+<text x="195.0" y="140" text-anchor="middle" class="value">R 0.2529</text>
+<text x="195.0" y="162" text-anchor="middle" class="small">rank-tuning</text>
+<rect x="274" y="104" width="142" height="78" rx="6" fill="#9dbcf7" stroke="white" stroke-width="2"/>
+<text x="345.0" y="140" text-anchor="middle" class="value">R 0.2522</text>
+<text x="345.0" y="162" text-anchor="middle" class="small">rank-tuning</text>
+<rect x="424" y="104" width="142" height="78" rx="6" fill="#a5c2f8" stroke="white" stroke-width="2"/>
+<text x="495.0" y="140" text-anchor="middle" class="value">R 0.2522</text>
+<text x="495.0" y="162" text-anchor="middle" class="small">rank-tuning</text>
+<text x="106" y="238.0" text-anchor="end" class="label">K=30</text>
+<rect x="124" y="190" width="142" height="78" rx="6" fill="#dbeafe" stroke="white" stroke-width="2"/>
+<text x="195.0" y="226" text-anchor="middle" class="value">R 0.2516</text>
+<text x="195.0" y="248" text-anchor="middle" class="small">rank-tuning</text>
+<rect x="274" y="190" width="142" height="78" rx="6" fill="#2563eb" stroke="white" stroke-width="2"/>
+<text x="345.0" y="226" text-anchor="middle" class="value">R 0.2534</text>
+<text x="345.0" y="248" text-anchor="middle" class="small">rank-tuning</text>
+<rect x="424" y="190" width="142" height="78" rx="6" fill="#2563eb" stroke="white" stroke-width="2"/>
+<text x="495.0" y="226" text-anchor="middle" class="value">R 0.2534</text>
+<text x="495.0" y="248" text-anchor="middle" class="small">rank-tuning</text>
+<text x="106" y="324.0" text-anchor="end" class="label">K=35</text>
+<rect x="124" y="276" width="142" height="78" rx="6" fill="#d8e8fd" stroke="white" stroke-width="2"/>
+<text x="195.0" y="312" text-anchor="middle" class="value">R 0.2517</text>
+<text x="195.0" y="334" text-anchor="middle" class="small">rank-tuning</text>
+<rect x="274" y="276" width="142" height="78" rx="6" fill="#bcd3fa" stroke="white" stroke-width="2"/>
+<text x="345.0" y="312" text-anchor="middle" class="value">R 0.2519</text>
+<text x="345.0" y="334" text-anchor="middle" class="small">rank-tuning</text>
+<rect x="424" y="276" width="142" height="78" rx="6" fill="#d8e8fd" stroke="white" stroke-width="2"/>
+<text x="495.0" y="312" text-anchor="middle" class="value">R 0.2517</text>
+<text x="495.0" y="334" text-anchor="middle" class="small">rank-tuning</text>
+<text x="124" y="492" class="small">Darker color means higher Recall@20. Best cell remains K=30, protect=5.</text>
+</svg>

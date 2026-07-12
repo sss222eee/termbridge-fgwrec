@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="540" viewBox="0 0 980 540">
+<style>
+text{font-family:Arial, 'Microsoft YaHei', sans-serif;fill:#0f172a;}
+.title{font-size:24px;font-weight:700;}
+.subtitle{font-size:13px;fill:#64748b;}
+.axis{font-size:12px;fill:#64748b;}
+.label{font-size:13px;fill:#0f172a;}
+.value{font-size:12px;fill:#0f172a;font-weight:600;}
+.small{font-size:11px;fill:#64748b;}
+</style>
+<rect width="100%" height="100%" fill="white"/>
+
+<text x="180" y="38" class="title">Ablation and tuning comparison</text>
+<text x="180" y="61" class="subtitle">Semantic term, transfer term and group-adaptive fusion all contribute; micro-tuning gives only a tiny final edge</text>
+<text x="164" y="107" text-anchor="end" class="label">Full fixed</text>
+<rect x="180" y="88" width="679.8" height="18" rx="3" fill="#2563eb"/>
+<rect x="180" y="112" width="377.5" height="18" rx="3" fill="#f97316"/>
+<text x="867.8" y="102" class="value">0.2514</text>
+<text x="565.5" y="126" class="value">0.1396</text>
+<text x="164" y="165" text-anchor="end" class="label">w/o semantic</text>
+<rect x="180" y="146" width="663.0" height="18" rx="3" fill="#2563eb"/>
+<rect x="180" y="170" width="371.5" height="18" rx="3" fill="#f97316"/>
+<text x="851.0" y="160" class="value">0.2452</text>
+<text x="559.5" y="184" class="value">0.1374</text>
+<text x="164" y="223" text-anchor="end" class="label">w/o transfer</text>
+<rect x="180" y="204" width="670.0" height="18" rx="3" fill="#2563eb"/>
+<rect x="180" y="228" width="374.5" height="18" rx="3" fill="#f97316"/>
+<text x="858.0" y="218" class="value">0.2478</text>
+<text x="562.5" y="242" class="value">0.1385</text>
+<text x="164" y="281" text-anchor="end" class="label">city-level</text>
+<rect x="180" y="262" width="671.4" height="18" rx="3" fill="#2563eb"/>
+<rect x="180" y="286" width="375.0" height="18" rx="3" fill="#f97316"/>
+<text x="859.4" y="276" class="value">0.2483</text>
+<text x="563.0" y="300" class="value">0.1387</text>
+<text x="164" y="339" text-anchor="end" class="label">group-adaptive</text>
+<rect x="180" y="320" width="684.6" height="18" rx="3" fill="#2563eb"/>
+<rect x="180" y="344" width="378.6" height="18" rx="3" fill="#f97316"/>
+<text x="872.6" y="334" class="value">0.2532</text>
+<text x="566.6" y="358" class="value">0.1400</text>
+<text x="164" y="397" text-anchor="end" class="label">final tuned</text>
+<rect x="180" y="378" width="685.2" height="18" rx="3" fill="#2563eb"/>
+<rect x="180" y="402" width="378.8" height="18" rx="3" fill="#f97316"/>
+<text x="873.2" y="392" class="value">0.2534</text>
+<text x="566.8" y="416" class="value">0.1401</text>
+<rect x="180" y="506" width="14" height="14" rx="2" fill="#2563eb"/>
+<text x="200" y="518" class="label">Recall@20</text>
+<rect x="310" y="506" width="14" height="14" rx="2" fill="#f97316"/>
+<text x="330" y="518" class="label">nDCG@20</text>
+</svg>

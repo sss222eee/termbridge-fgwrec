@@ -1,0 +1,9 @@
+numpy
+pandas
+torch
+PyYAML
+scipy
+
+# Optional but recommended for paper-faithful GW/FGW:
+# POT
+

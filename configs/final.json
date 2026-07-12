@@ -1,0 +1,23 @@
+{
+  "random_seed": 2024,
+  "inner_validation_seed": 2026,
+  "data_root": "data/official_split",
+  "feature_root": "data/term_features",
+  "score_root": "artifacts/mf_bce_seed2024",
+  "brand_topq": 10,
+  "brand_tau": 0.1,
+  "fgw_alpha": 0.35,
+  "regularization": 0.05,
+  "region_solver": "signature",
+  "region_tau": 0.2,
+  "region_topk": 10,
+  "source_mode": "prune",
+  "source_prune_epsilon": 0.0005,
+  "rrf_k": 30,
+  "protect_top": 5,
+  "rerank_top_l": 200,
+  "evaluation_k": 20,
+  "popularity_groups": "25/50/25",
+  "selection_objective": "Recall@20 + 2 * nDCG@20"
+}
+
